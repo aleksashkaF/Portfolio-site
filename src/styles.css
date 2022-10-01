@@ -83,3 +83,6 @@ nav {
 .social-link-logo:hover {
   transform: scale(1.2);
 }
+.code-link:hover {
+  text-decoration: underline;
+}
