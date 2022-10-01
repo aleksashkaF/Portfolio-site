@@ -1,15 +1,19 @@
 :root {
   --primary-color: #F5F2E6;
-  --text-color: #362391;
-  --border-button: 2px solid #f6eb9a;
-  --border-radius-button: 34px;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --text-color:  #5c5470;
+  --border-button: 2px solid #F1EAED;
+  --border-radius-button: 4px;
+  --box-shadow: 0 5px 10px #5c5470;
 }
 body {
    background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  
+}
+nav {
+   font-family: 'Didact Gothic', sans-serif;
 }
 .primary-designe {
-  font-family: "Cormorant", serif;
+  font-family: 'Didact Gothic', sans-serif;
   color: var(--text-color);
 }
 .page-headline2 {
@@ -20,7 +24,7 @@ body {
 }
 
 .buttons-links a {
-  font-size: 26px;
+  font-size: 24px;
   text-decoration: none;
   border: var(--border-button);
   border-radius: var(--border-radius-button);
@@ -33,14 +37,13 @@ body {
 }
 .contact-link:hover {
   background-color: #EDE4F2;
-}
-.about-link {
-  background-color:#F1EAED;
   color: var(--text-color);
 }
-.about-link:hover {
-  background-color: #EDE4F2;
+.carousel-caption {
+  font-family: 'Didact Gothic', sans-serif;
+  
 }
+
 .homepage-link {
   font-size: 20px;
   color: var(--text-color);
