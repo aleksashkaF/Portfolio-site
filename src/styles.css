@@ -1,19 +1,18 @@
 :root {
-  --primary-color: #F5F2E6;
-  --text-color:  #5c5470;
-  --border-button: 2px solid #F1EAED;
+  --primary-color: #f5f2e6;
+  --text-color: #5c5470;
+  --border-button: 2px solid #f1eaed;
   --border-radius-button: 4px;
   --box-shadow: 0 5px 10px #5c5470;
 }
 body {
-   background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-  
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 nav {
-   font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
 }
 .primary-designe {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   color: var(--text-color);
 }
 .page-headline2 {
@@ -32,16 +31,15 @@ nav {
   box-shadow: var(--box-shadow);
 }
 .contact-link {
-  background-color: #F1EAED;
+  background-color: #f1eaed;
   color: var(--text-color);
 }
 .contact-link:hover {
-  background-color: #EDE4F2;
+  background-color: #ede4f2;
   color: var(--text-color);
 }
 .carousel-caption {
-  font-family: 'Didact Gothic', sans-serif;
-  
+  font-family: "Didact Gothic", sans-serif;
 }
 
 .homepage-link {
@@ -60,7 +58,28 @@ nav {
 }
 .email-link:hover {
   text-decoration: underline;
+  color: var(--text-color);
 }
 .bg-lp-images {
   background-color: var(--primary-color);
+}
+.social-links {
+  font-size: 36px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.social-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 10px;
+}
+.social-links a:hover {
+  color: var(--text-color);
+}
+.social-link-logo {
+  transform: none;
+}
+.social-link-logo:hover {
+  transform: scale(1.2);
 }
